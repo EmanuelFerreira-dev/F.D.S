@@ -3,39 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!--
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    -->
+    <!--Icono-->
+    <link rel="icon" type="image/jpg" href="img/favicon.ico"/>
+     <!-- google font -->
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:regular,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,regular,italic,600,600italic,700,700italic,800,800italic"
+    rel="stylesheet" />
     <title>ACASUSSO EATS</title>
 </head>
 <body>
-     <header class="header">
-        <input class="header__checkbox" type="checkbox" id="open-menu">
-        <label for="open-menu" class="header__open-nav-button" role="button">=</label>
-        <div class="header_logo_container">
-            <!--LOGO-->
-            <img class="header__logo" src="ACAEATS.png" alt="Acasusso Eats">
+    <header>
+        <div class="header-top">
+          <div class="schedule">
+            <img src="img/icon_phone.png" alt="">
+            <div class="schedule-right">
+              <div class="phone">+54 11 5686 9999</div>
+              <div class="time">8:00 hs – 23:30 hs</div>
+            </div>
+          </div>
+    
+          <div class="logo"><img src="img/logo01.png" alt=""></div>
+    
+          <div class="cart">
+            <img src="img/icon_cart.png" alt="">
+            <div class="cart-left">
+              <div class="amount">$0.00</div>
+              <div class="items">0 items - Ver Carrito</div>
+            </div>
+          </div>
+    
+          <div class="menu-btn active">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+    
         </div>
-        <!--BARRA DE NAVEGACION-->
-        <nav class="header__nav">
-            <ul class="header__nav-list">
-
-                <!--HOME-->
-                <li class="header__nav-item"><a href="#">HOME</a></li>
-
-                <!--CARTA-->
-                <li class="header__nav-item"><a href="#">CARTA</a></li>
-
-                <!--NOSOTROS-->
-                <li class="header__nav-item"><a href="#">NOSOTROS</a></li>
-
-                <!--CONTACTO-->
-                <li class="header__nav-item"><a href="#">CONTACTO</a></li>
-
-            </ul>
-        </nav>
-     </header>
+    
+        <ul class="nav active">
+          <li><a href="#" class="active">HOME</a></li>
+          <li><a href="#">MENU</a></li>
+          <li><a href="#">NOSOTROS</a></li>
+          <li><a href="#">BLOG</a></li>
+          <li><a href="#">CONTACTO</a></li>
+        </ul>
+      </header>
      <main class="main__section">
         <section class="home">
             <div class="content">
@@ -49,7 +67,7 @@
         </div>
         <div class="column-4">
             <!--PIZZA-->
-            <div  class="tarjeta-rest" style="background: url(pizza.jpg)center;
+            <div  class="tarjeta-rest" style="background: url(img/pizza.jpg)center;
             background-size: cover;">
                 <div class="wrap-text_tarjeta-rest">
                     <h3>Pizzas</h3>
@@ -57,7 +75,7 @@
                 </div>
             </div>
             <!--HAMBURGUESA-->
-            <div  class="tarjeta-rest" style="background: url(Hamburguesa2.jpg)center;
+            <div  class="tarjeta-rest" style="background: url(img/Hamburguesa2.jpg)center;
             background-size: cover;">
                 <div class="wrap-text_tarjeta-rest">
                     <h3>Hamburguesas</h3>
@@ -66,7 +84,7 @@
     
             </div>
             <!--Empanadas-->
-            <div  class="tarjeta-rest" style="background: url(EMPANADAS.jpg)center;
+            <div  class="tarjeta-rest" style="background: url(img/EMPANADAS.jpg)center;
             background-size: cover;">
                 <div class="wrap-text_tarjeta-rest">
                     <h3>Empanadas</h3>
@@ -75,7 +93,7 @@
     
             </div>
             <!--Asado-->
-            <div  class="tarjeta-rest" style="background: url(asado.jpg)center;
+            <div  class="tarjeta-rest" style="background: url(img/asado.jpg)center;
             background-size: cover;">
                 <div class="wrap-text_tarjeta-rest">
                     <h3>Asados</h3>
@@ -84,4 +102,5 @@
     </section>
      </main>
 </body>
+<script src="js/myscript.js"></script>
 </html>
